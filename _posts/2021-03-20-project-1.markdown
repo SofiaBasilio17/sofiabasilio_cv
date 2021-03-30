@@ -1,0 +1,13 @@
+---
+layout: default
+title: Project for Portosigns
+modal-id: 6
+date: 2021-03-20
+img: portfolio1.jpg
+alt: image-alt
+project-date: 2013
+client: Portosigns
+category: Branding
+pictures: [portfolio1_1.jpg, portfolio1_2.jpg, portfolio1_3.jpg]
+description: As part of my work at Portosigns, one of the many jobs I had was one of branding. From the company's business card, to bag designs and the advertisements that would later go on books, maganizes and other forms of media.
+---

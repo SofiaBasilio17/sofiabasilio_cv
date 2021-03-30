@@ -1,0 +1,13 @@
+---
+layout: default
+title: Others
+modal-id: 5
+date: 2021-02-20
+img: portfolio6.jpg
+alt: image-alt
+project-date: 2019 - 2021
+client: CADIA / IIIM
+category: AI and Research
+pictures: []
+description: In 2019 I took a summer job as a researcher at the CADIA department. The research was done on the experience of crowding affecting visitors, for more information please refer to the pdf below (project's report). From the summer of 2020 to 2021, after completing my bachelor in Computer Science I took a job at IIIM (Icenlandic Institute for Intelligent Machines). I was a part of many projects in the area of automation with Artificial Intelligence. Both jobs were an amazing experience in the field of research.
+---

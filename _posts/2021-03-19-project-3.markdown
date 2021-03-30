@@ -1,0 +1,13 @@
+---
+layout: default
+title: Project for Modal Creative
+modal-id: 3
+date: 2021-03-19
+img: portfolio5.jpg
+alt: image-alt
+project-date: September 2014
+client: Modal Creative
+category: Template Design
+pictures: [portfolio5_1.jpg, portfolio5_2.jpg, portfolio5_3.jpg]
+description: At a point in my highschool degree, I did an internship at a design company - Modal Creative. Where my main job was to design templates for Veterinarian Offices. Below are some of the templates I designed.
+---

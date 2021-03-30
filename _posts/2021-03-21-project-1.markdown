@@ -1,0 +1,13 @@
+---
+layout: default
+title: Project for Magni
+modal-id: 1
+date: 2021-03-21
+img: portfolio3.jpg
+alt: image-alt
+project-date: June 2019
+client: Magni
+category: Web Development
+pictures: [portfolio3_1.jpg, portfolio3_2.jpg]
+description: In 2019 I was asked to make a design for a possible business. The project was related to funding real estate. Below are two of the designs I made at the time, the second one is mostly a skeleton but it is to show how I design templates in Illustrator before going into coding it on HTML and CSS.
+---

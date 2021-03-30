@@ -14,30 +14,40 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" style="height:200px" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                        <strong>{{ post.client }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
                                     <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                        <strong>{{ post.category }}
                                         </strong>
                                     </li>
                                 {% endif %}
                             </ul>
+                            {% for pic in post.pictures %}
+                                <img src="img/portfolio/pictures/{{ pic }}" class="img-responsive img-centered">
+                            {% endfor %}
+                            {% if post.modal-id == 5 %}
+                                <a href="http://cadia.ru.is/">Cadia's website</a>
+                                <hr>
+                                <a href="https://www.iiim.is/">IIIM's website</a>
+                                <hr>
+                                <embed src="img/portfolio/pictures/cadia.pdf" width="800px" height="1000px" />
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

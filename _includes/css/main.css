@@ -35,6 +35,53 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+.edu:first-child {
+    border-left: 3px solid #{{ site.color.primary }};
+}
+.edu {
+    text-align: center;
+
+    border-right: 3px solid #{{ site.color.primary }};
+    height:150px;
+}
+.link-b {
+    color:white;
+}
+.link-b:hover {
+    color:black;
+    text-decoration: none;
+}
+.work {
+   text-align: left; 
+}
+.workli {
+    margin-bottom: 25px;
+    border-bottom: 1px solid white;
+}
+.skills{
+    background-color: #1078684b;
+    min-height: 220px;
+    margin-top: 20px;
+    border-right: 3px solid white;
+}
+.skills:first-child{
+    border-left: 3px solid white;
+}
+.skills-label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+.img-skills {
+    height: 60px;
+    margin:10px;
+}
+.img-skills-o {
+    height: 45px;
+    margin:10px;
+}
 
 hr.star-light,
 hr.star-primary {
@@ -183,6 +230,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+    text-align: justify;
 }
 
 @media(max-width:767px) {
@@ -206,7 +254,6 @@ section.success {
     margin: 0 auto;
     max-width: 400px;
 }
-
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;

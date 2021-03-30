@@ -1,11 +1,13 @@
 ---
 layout: default
+title: Project for Colégio de Gaia
 modal-id: 2
 date: 2014-07-17
-img: cake.png
+img: portfolio2.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: 2014
+client: Gimnocedro
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+pictures: [portfolio2_1.jpg]
+description: While taking my highschool degree in IT, we had to pick a project for a company, mine was that of a website directed at a local gym. This is the front-page.
 ---
