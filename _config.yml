@@ -1,8 +1,8 @@
 # Site settings
 title: Sofia Basílio
 email: sofiabasiliovs@gmail.com
-baseurl: "sofiabasilio_cv"
-url: ""
+baseurl: /sofiabasilio_cv
+url: https://sofiabasilio17.github.io
 description: "Hello there! You've reached my CV page, please do go ahead and explore!"
 keywords: "Artificial Intelligence, Research, Programming, Health, Science, Web Development, Games"
 skills: "Programming - Artificial Intelligence - Research - Games - Web Development"
