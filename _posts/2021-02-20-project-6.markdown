@@ -5,7 +5,7 @@ modal-id: 5
 date: 2021-02-20
 img: portfolio6.jpg
 alt: image-alt
-project-date: 2019 - 2021
+project-date: 2019 - current
 client: CADIA / IIIM
 category: AI and Research
 pictures: []
